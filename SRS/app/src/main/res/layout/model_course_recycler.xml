@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:layout_marginBottom="4dp"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/et_course_name"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:hint="Enter course initial"
+        android:paddingStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:maxLength="6"
+        android:background="@drawable/bg_recycler_edittext"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textColorHint="#a3ffffff"
+        android:textSize="16sp"
+        android:layout_marginRight="8dp"
+        android:paddingLeft="8dp" />
+
+    <ImageView
+        android:id="@+id/btn_remove_course"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_remove"
+        android:paddingRight="30dp"
+        android:padding="6dp"
+        />
+</LinearLayout>
